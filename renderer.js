@@ -120,7 +120,7 @@ function progress(id, value){
             if(pb.childNodes.length > 0){
                 let span = pb.childNodes[0];
                 span.style.width = next+'%';
-                console.log(next);
+                //console.log(next);
             }else
                 pb.innerHTML = '<span style="width:'+next+'%"></span>';
             pb.classList.remove('done');
