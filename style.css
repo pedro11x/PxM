@@ -1,0 +1,21 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    margin: auto;
+}
+
+p{
+    font-family: monospace;
+}
+.header {
+    display: table;
+    padding: 15px;
+}
+.header > *{
+    display: table-cell;
+}
+.header > * > *{
+    display: table-cell;
+}

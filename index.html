@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>P[X]M Image Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div><h1>P[X]m Image Viewer</h1></div>
+        <div><p>Supports PPM files for now. More later.. (only supports the ASCII formatted images)</p></div>
+    </div>
+    <div>
+        <form><input type="file" id="file-selector"></form>
+    </div>
+    <div id="content">
+        <canvas id="viewport"></canvas>
+    </div>
+</body>
+<script src="renderer.js"></script>
+</html>
