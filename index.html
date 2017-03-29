@@ -5,11 +5,14 @@
 </head>
 <body>
     <div class="header">
-        <div><h1>P[X]m Image Viewer</h1></div>
-        <div><p>Supports PPM files for now. More later.. (only supports the ASCII formatted images)</p></div>
+        <div class="title"><h1>P[X]m Image Viewer</h1></div>
+        <div class=""><p>Supports PPM and PBM files. (only ASCII formatted images)</p></div>
     </div>
-    <div>
-        <form><input type="file" id="file-selector"></form>
+    <div class="file-selector">
+        <form>
+            <input type="file" id="file-selector">
+            <div id="imgloadprogress" class="progress"></div>
+        </form>
     </div>
     <div id="content">
         <canvas id="viewport"></canvas>
